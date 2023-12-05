@@ -1,0 +1,21 @@
+[package]
+name = "day2_cube_conundrum"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.10.2"
+time = "0.3.30"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/bin/part1.rs"
+name = "part1"
+
+[[bin]]
+path = "src/bin/part2.rs"
+name = "part2"
